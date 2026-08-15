@@ -1,0 +1,346 @@
+{
+  "users": [
+    {
+      "id": "mock-1",
+      "name": "Anya (Math Wizard)",
+      "email": "anya@scholarbot.com",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "level": 5,
+      "xp": 1240,
+      "studyPoints": 450,
+      "streak": 6,
+      "targetHours": 6,
+      "categoryTargets": {
+        "Mathematics": 120,
+        "Physics": 90,
+        "Computer Science": 90,
+        "Language": 60,
+        "Other": 60
+      }
+    },
+    {
+      "id": "mock-2",
+      "name": "Liam Code",
+      "email": "liam@scholarbot.com",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "level": 4,
+      "xp": 950,
+      "studyPoints": 320,
+      "streak": 3,
+      "targetHours": 5,
+      "categoryTargets": {
+        "Mathematics": 60,
+        "Physics": 60,
+        "Computer Science": 180,
+        "Language": 45,
+        "Other": 45
+      }
+    },
+    {
+      "id": "mock-3",
+      "name": "Zara",
+      "email": "zara@scholarbot.com",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+      "level": 7,
+      "xp": 1810,
+      "studyPoints": 620,
+      "streak": 12,
+      "targetHours": 8,
+      "categoryTargets": {
+        "Mathematics": 120,
+        "Physics": 120,
+        "Computer Science": 120,
+        "Language": 120,
+        "Other": 120
+      }
+    },
+    {
+      "id": "usr-uxoeunn",
+      "name": "Sj",
+      "email": "250320100059@cutm.ac.in",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=250320100059%40cutm.ac.in",
+      "level": 1,
+      "xp": 2,
+      "studyPoints": 2,
+      "streak": 1,
+      "lastStudyDate": "2026-06-25",
+      "targetHours": 4,
+      "categoryTargets": {
+        "Mathematics": 60,
+        "Physics": 60,
+        "Computer Science": 60,
+        "Language": 30,
+        "Other": 30
+      }
+    },
+    {
+      "id": "usr-sud06vq",
+      "name": "Prabhu",
+      "email": "prabhu@gmail.com",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=prabhu%40gmail.com",
+      "level": 1,
+      "xp": 0,
+      "studyPoints": 0,
+      "streak": 1,
+      "lastStudyDate": "2026-06-25",
+      "targetHours": 4,
+      "categoryTargets": {
+        "Mathematics": 60,
+        "Physics": 60,
+        "Computer Science": 60,
+        "Language": 30,
+        "Other": 30
+      }
+    },
+    {
+      "id": "usr-e088vfu",
+      "name": "Pabitra",
+      "email": "pabitra@gmail.com",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=pabitra%40gmail.com",
+      "level": 1,
+      "xp": 0,
+      "studyPoints": 0,
+      "streak": 1,
+      "lastStudyDate": "2026-06-26",
+      "targetHours": 4,
+      "categoryTargets": {
+        "Mathematics": 60,
+        "Physics": 60,
+        "Computer Science": 60,
+        "Language": 30,
+        "Other": 30
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess-1",
+      "userId": "mock-1",
+      "duration": 50,
+      "category": "Mathematics",
+      "timestamp": "2026-06-24T12:30:00.865Z",
+      "notes": "Worked on calculus integrals",
+      "completed": true
+    },
+    {
+      "id": "sess-2",
+      "userId": "mock-2",
+      "duration": 25,
+      "category": "Computer Science",
+      "timestamp": "2026-06-25T00:30:00.865Z",
+      "notes": "Express backend routing practice",
+      "completed": true
+    },
+    {
+      "id": "sess-3",
+      "userId": "mock-3",
+      "duration": 45,
+      "category": "Physics",
+      "timestamp": "2026-06-23T12:30:00.865Z",
+      "notes": "Quantum mechanics basic axioms review",
+      "completed": true
+    },
+    {
+      "id": "sess-oyhqu5z",
+      "userId": "usr-uxoeunn",
+      "duration": 1,
+      "category": "Computer Science",
+      "timestamp": "2026-06-25T15:48:32.470Z",
+      "notes": "Focused on Computer Science",
+      "completed": true
+    },
+    {
+      "id": "sess-jwq56io",
+      "userId": "usr-uxoeunn",
+      "duration": 1,
+      "category": "Computer Science",
+      "timestamp": "2026-06-25T15:49:10.736Z",
+      "notes": "Focused on Computer Science",
+      "completed": true
+    }
+  ],
+  "syllabus": [
+    {
+      "id": "topic-bt3q756",
+      "userId": "usr-uxoeunn",
+      "subject": "Computer Science",
+      "chapter": "java",
+      "topic": "OPPS",
+      "status": "pending",
+      "lastReviewed": "2026-06-25T15:13:34.415Z"
+    },
+    {
+      "id": "topic-xbs5lvc",
+      "userId": "usr-e088vfu",
+      "subject": "Computer Science",
+      "chapter": "C-Programming",
+      "topic": "Loops",
+      "status": "pending",
+      "lastReviewed": "2026-06-26T03:18:05.798Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-1",
+      "userId": "any",
+      "title": "Mechanisms of DNS",
+      "content": "The Domain Name System (DNS) translates human-readable domain names into IP addresses. It starts at the resolver, queries the Root Server, the TLD (Top-Level Domain) server, and finally the Authoritative Name Server to fetch the correct IP address. DNS typically operates on UDP port 53.",
+      "summary": "DNS translates domain names to IP addresses starting from the root nameservers down to authoritative nameservers, running on UDP Port 53.",
+      "flashcards": [
+        {
+          "front": "What port does DNS primarily use?",
+          "back": "UDP Port 53"
+        },
+        {
+          "front": "What is the start of a DNS query chain?",
+          "back": "DNS Resolver"
+        }
+      ],
+      "timestamp": "2026-06-25T12:30:00.865Z",
+      "category": "Computer Science"
+    },
+    {
+      "id": "note-9ej171c",
+      "userId": "usr-uxoeunn",
+      "title": "java",
+      "content": "Java is a high level language",
+      "category": "Computer Science",
+      "timestamp": "2026-06-25T15:14:06.508Z"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam-1",
+      "userId": "any",
+      "title": "Midterm Calculus Exam",
+      "date": "2026-06-30T12:30:00.865Z",
+      "subject": "Mathematics",
+      "preparationLevel": 65,
+      "tasks": [
+        {
+          "id": "t-1",
+          "text": "Solve 20 mock integration problems",
+          "done": true
+        },
+        {
+          "id": "t-2",
+          "text": "Revise Taylor Series expansion proof",
+          "done": false
+        },
+        {
+          "id": "t-3",
+          "text": "Take weekly AI calculus quiz",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "global-library",
+      "name": "📚 Global Library",
+      "description": "Quiet focus room for deep study. Pomodoro fans welcome!",
+      "members": [
+        {
+          "userId": "mock-1",
+          "userName": "Anya (Math Wizard)",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+          "xp": 1240,
+          "currentActivity": "Focusing (Mathematics)"
+        },
+        {
+          "userId": "mock-2",
+          "userName": "Liam Code",
+          "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+          "xp": 950,
+          "currentActivity": "Focusing (Computer Science)"
+        },
+        {
+          "userId": "mock-3",
+          "userName": "Zara",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+          "xp": 1810,
+          "currentActivity": "Chilling"
+        },
+        {
+          "userId": "usr-uxoeunn",
+          "userName": "Sj",
+          "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=250320100059%40cutm.ac.in",
+          "xp": 0,
+          "currentActivity": "Focusing (In Room)"
+        }
+      ],
+      "chat": [
+        {
+          "id": "msg-1",
+          "userName": "Anya (Math Wizard)",
+          "text": "Just completed a 50min calculus streak!",
+          "timestamp": "2026-06-25T11:28:55.477Z"
+        },
+        {
+          "id": "msg-2",
+          "userName": "Liam Code",
+          "text": "Nice work! I'm jumping in for a 25min coding block now.",
+          "timestamp": "2026-06-25T11:58:55.478Z"
+        }
+      ]
+    },
+    {
+      "id": "ai-lab",
+      "name": "🤖 AI & Tech Lab",
+      "description": "Collaborative query solving and exam prep with peers.",
+      "members": [
+        {
+          "userId": "mock-4",
+          "userName": "Dr. Dave",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+          "xp": 2150,
+          "currentActivity": "Query Solving"
+        },
+        {
+          "userId": "mock-5",
+          "userName": "Emma Study",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150",
+          "xp": 820,
+          "currentActivity": "Focusing (Other)"
+        }
+      ],
+      "chat": [
+        {
+          "id": "msg-3",
+          "userName": "Emma Study",
+          "text": "Has anyone tried the weekly AI-generated test? It's amazing for physics.",
+          "timestamp": "2026-06-25T10:28:55.478Z"
+        },
+        {
+          "id": "msg-4",
+          "userName": "Dr. Dave",
+          "text": "Yes! The grading feedback really solidifies weak concepts.",
+          "timestamp": "2026-06-25T11:28:55.478Z"
+        }
+      ]
+    },
+    {
+      "id": "softskills-lounge",
+      "name": "💬 Soft Skills Lounge",
+      "description": "Develop your presentation, interview, and leadership skills here.",
+      "members": [
+        {
+          "userId": "mock-6",
+          "userName": "Olivia Voice",
+          "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+          "xp": 1100,
+          "currentActivity": "Soft Skill Play"
+        }
+      ],
+      "chat": [
+        {
+          "id": "msg-5",
+          "userName": "Olivia Voice",
+          "text": "Doing the AI Public Speaking Coach session. Highly recommend!",
+          "timestamp": "2026-06-25T12:18:55.478Z"
+        }
+      ]
+    }
+  ]
+}

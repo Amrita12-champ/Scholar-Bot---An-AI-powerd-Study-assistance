@@ -1,0 +1,6 @@
+{
+  "name": "ScholarBot",
+  "description": "An AI-powered personal study assistant with gamified progress tracking, focus timers, syllabus tracking, note summarizing, and collaborative rooms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
